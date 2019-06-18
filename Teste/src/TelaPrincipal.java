@@ -33,6 +33,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jButton4 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -88,6 +89,10 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jButton5.setBounds(10, 198, 61, 23);
         getContentPane().add(jLabel2);
         jLabel2.setBounds(114, 422, 0, 0);
+
+        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrador\\Desktop\\relampago-marquinhos.png")); // NOI18N
+        getContentPane().add(jLabel4);
+        jLabel4.setBounds(90, 60, 250, 210);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -160,5 +165,6 @@ janela.setVisible(true);        // TODO add your handling code here:
     private javax.swing.JButton jButton5;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel4;
     // End of variables declaration//GEN-END:variables
 }
